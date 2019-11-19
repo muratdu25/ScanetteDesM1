@@ -2,6 +2,9 @@
 
 const TRANMISSION_URL = "https://dept-info.univ-fcomte.fr/licence/SAMP/";
 
+if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./js/sw.js');
+};
 
 /************************************************************************
  *                                                                      *
@@ -9,6 +12,8 @@ const TRANMISSION_URL = "https://dept-info.univ-fcomte.fr/licence/SAMP/";
  *                                                                      *
  ************************************************************************/
 document.addEventListener("DOMContentLoaded", function(_e) {
+
+    
     
     
     /** Touch Events related to the bcStart block **/
