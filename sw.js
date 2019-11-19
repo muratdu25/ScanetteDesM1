@@ -35,7 +35,7 @@ self.addEventListener('install', (e) => {
   });
 
 var cacheName = 'scanette-v1';
-var appShellFiles = [
+var contentToCache = [
   './index.html',
   './js/app.js',
   './style.css',
