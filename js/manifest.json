@@ -1,7 +1,7 @@
 {
     "name": "ScanetteM1 Progressive Web App",
     "short_name": "SCANETTEM1",
-    "description": "Progressive Web App that lists games submitted to the A-Frame category in the js13kGames 2017 competition.",
+    "description": "Progressive Web App that Scanette.",
     "icons": [
         {
             "src": "icons/icon-32.png",
@@ -15,7 +15,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "index.html",
+    "start_url": "https://muratdu25.github.io/ScanetteDesM1/",
     "display": "fullscreen",
     "theme_color": "#B12A344",
     "background_color": "#B12A44"
